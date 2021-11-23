@@ -12,3 +12,6 @@ For example, I'm using OhMyZsh and to add the files it's just a few lines at the
 source ~/ext/opensslext.sh
 source ~/ext/tarext.sh
 ```
+
+## Contribuiting
+Feel free to open a pull request adding new scripts! I'm going to be adding mines as I make new ones
