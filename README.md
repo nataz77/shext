@@ -11,6 +11,7 @@ For example, I'm using OhMyZsh and to add the files it's just a few lines at the
 ```bash
 source ~/ext/opensslext.sh
 source ~/ext/tarext.sh
+source ~/ext/sourceenv.sh #this may be redundant if you're using the .env oh-my-zsh plugin but still sometimes I use it
 ```
 
 ## Contribuiting
