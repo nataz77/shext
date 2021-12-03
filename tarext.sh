@@ -17,7 +17,13 @@ function unpack-tar {
    then
       unpack-usage
    else
-      tar -xxfv "$1"  -C "$2"
+      if [[ -d "$2" ]]
+      then
+        tar -xf "$1"  -C "$2"
+      else
+        mkdir -p "$2"
+        tar -xf "$1"  -C "$2"
+      fi
    fi
 }
 
